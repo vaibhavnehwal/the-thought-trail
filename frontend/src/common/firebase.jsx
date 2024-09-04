@@ -3,7 +3,7 @@ import { GoogleAuthProvider, getAuth, signInWithPopup } from 'firebase/auth'
 
 const firebaseConfig = {
 
-    apiKey: "AIzaSyALWt_e3Q_Bvv2OaUghp-oluPy8427ZIwg",
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
 
     authDomain: "the-thought-trail.firebaseapp.com",
 
