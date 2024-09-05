@@ -42,7 +42,7 @@ The backend requires several environment variables to function correctly, stored
 - `AWS_BUCKET_REGION`: AWS S3 bucket region.
 - `AWS_SDK_JS_SUPPRESS_MAINTENANCE_MODE_MESSAGE = 1`: Suppresses AWS SDK maintenance messages.
 - **Firebase Admin** credentials for Google login:
-  - A Firebase service account file must be imported and named correctly in the `server.js` file.
+  - A Firebase service account .json file must be imported and named correctly in the `server.js` file at line 9.
 
 ---
 
